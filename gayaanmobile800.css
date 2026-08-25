@@ -1,0 +1,154 @@
+#konten0 h1{
+	margin:12px auto;
+	font-size:46px;
+}
+
+#konten0 p{
+	font-size:14px;
+	padding:0px 30px;
+}
+
+#banner{
+	width:80%;
+	height:160px;
+	object-fit: cover;
+	margin: 8px auto;
+	display:block;
+	border-radius:15px;
+}
+
+#konten1 h3{
+	text-align:center;
+	font-size:29px;
+	margin:18px auto;
+}
+
+#konten1 p{
+	text-align:center;
+	font-size:16px;
+	padding:0px 45px;
+	margin:18px 26px;
+}
+
+#konten2 h2{
+	text-align:center;
+	font-size:30px;
+}
+
+#konten2 section{
+	display:grid;
+	grid-template-columns: auto auto;
+	justify-content: center;
+	padding:0px 100px;
+	gap:10px;
+	padding:15px;
+	margin:20px 60px;
+}
+
+#konten2 section h4{
+	padding:5px 20px;
+	flex-grow:3;
+	margin:0px auto;
+	width:100%;
+	font-size:34px;
+	box-sizing:border-box;
+	align-self: end;
+	text-transform:capitalize;
+}
+
+#konten2 section p{
+	font-size:16px;
+	padding:5px 20px;
+	flex-grow:8;
+	margin:0px auto;
+	width:100%;
+	box-sizing:border-box;
+	align-self: start;
+}
+
+#konten2 img{
+	width:220px;
+	height:220px;
+	object-fit: cover;
+	flex-grow:1;
+	display:block;
+	border-radius:15px;
+	grid-row: 1 / span 2;
+}
+
+#konten2 section img{
+	align-self: center;
+}
+
+#konten3 {
+	display:grid;
+	grid-template-columns:auto auto auto auto;
+	column-gap:22px;
+	padding: 3px 20px;
+	width:80%;
+	margin:20px auto;
+}
+
+#konten3 *{
+	text-align:center;
+}
+
+#konten3 i{
+	padding:30px;
+	justify-self: center;
+	font-size:40px;
+}
+
+#konten3 h3{
+	grid-column: 1 / span 4;
+}
+
+#konten4 {
+	margin:auto 55px;
+}
+
+#konten4 h3{
+	font-size:26px;
+}
+
+#konten4 p{
+	font-size:16px;
+}
+
+#konten6 h2, #konten5 h2{
+	font-size:24px;
+}
+#konten5 p, #konten5 a, #konten6 a, #konten6 p, #konten2a p, #konten2a a{
+	font-size:16px;
+}
+
+#konten5 a, #konten6 a, #konten2a a{
+	margin:auto;
+	padding:12px;
+	border-radius:20px;
+	text-decoration:none;
+	color:black;
+	width:100%;
+	box-sizing:border-box;
+}
+
+#konten5, #konten6, #konten2a{
+	display:grid;
+	gap:12px;
+	grid-template-columns:auto auto;
+	margin:35px 55px;
+	padding:16px;
+}
+
+#konten5 h2, #konten5 p, #konten6 h2, #konten6 p, #konten2a p{
+	grid-column: 1 / span 2;
+}
+
+#lastkonten h3{
+	font-size:32px;
+}
+
+#lastkonten p{
+	padding:12px 33px;
+	font-size:20px;
+}
