@@ -41,3 +41,7 @@ konten2a.getElementsByTagName("p")[0].innerHTML="ketentuan bagi untuk free pajak
 
 let konten6=document.getElementById("konten6");
 konten6.getElementsByTagName("p")[0].innerHTML="jika ada kendala terkait barang atau seputar jasa kami bisa langsung hubungi kami";
+
+function peringatan(){
+	alert("sementara admin 1 sibuk");
+}
