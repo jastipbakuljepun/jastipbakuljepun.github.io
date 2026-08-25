@@ -7,16 +7,19 @@ let gambar=[];
 
 deskripsi[0]="pada bagian ini anda diharapkan untuk melihat harga barang terlebih dahulu, pembeli wajib memerhatikan harga barang apakah sesuai dengan fisik barang yang sesuai di pasaran jepang";
 
-deskripsi[1]="pembeli diharapkan untuk mengecek kondisi barang apakah sesuai dengan yang diharapkan untuk dibeli, cek kondisi apakah masih baru atau bekas";
+deskripsi[1]="pembeli diharapkan mengecek deskripsi barang guna untuk menyesuaikan apak sudah cocok untuk di beli atau belum";
 
-deskripsi[2]="setelah pembeli melakukan cek harga, pembeli diharapkan untuk mengecek pajak (tax) dan juga ongkir lokal yang tertera di pada deskripsi web";
+deskripsi[2]="pembeli diharapkan untuk mengecek kondisi barang apakah sesuai dengan yang diharapkan untuk dibeli, cek kondisi apakah masih baru atau bekas";
 
-deskripsi[3]="setelah melakukan pengecekan harga dan kondisi barang jika melewati tahap itu semua, pembeli dapat langsung melakukan order ke kami dengan rate barang di angka 180 yang dimana sudah termasuk shipping dan masuk indonesia, dan masih diluar ongkir lokal indonesia";
+deskripsi[3]="setelah pembeli melakukan cek harga, pembeli diharapkan untuk mengecek pajak (tax) dan juga ongkir lokal yang tertera di pada deskripsi web";
 
-gambar[0]="gambar/japan1.jpg";
-gambar[1]="gambar/japan2.jpg";
-gambar[2]="gambar/japan3.jpg";
-gambar[3]="gambar/japan4.jpg";
+deskripsi[4]="setelah melakukan pengecekan harga dan kondisi barang jika melewati tahap itu semua, pembeli dapat langsung melakukan order ke kami dengan rate barang di angka 180 yang dimana sudah termasuk shipping dan masuk indonesia, dan masih diluar ongkir lokal indonesia";
+
+gambar[0]="gambar/tut1.jpeg";
+gambar[1]="gambar/tut2.jpeg";
+gambar[2]="gambar/tut3.jpeg";
+gambar[3]="gambar/tut4.jpeg";
+gambar[4]="gambar/jadi.jpeg";
 
 for(let i=0;i<konten.length;i++){
 	konten[i].getElementsByTagName("p")[0].innerHTML=deskripsi[i];
