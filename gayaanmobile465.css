@@ -1,17 +1,17 @@
 #konten0 h1{
 	margin:12px auto;
-	font-size:30px;
+	font-size:44px;
 }
 
 #konten0 p{
-	font-size:12px;
-	padding:0px 16px;
-	width:85%;
+	font-size:16px;
+	padding:0px 8px;
+	width:80%;
 }
 
 #banner{
 	width:85%;
-	height:115px;
+	height:140px;
 	object-fit: cover;
 	margin: 8px auto;
 	display:block;
@@ -20,69 +20,60 @@
 
 #konten1 h3{
 	text-align:center;
-	font-size:25px;
+	font-size:28px;
 	margin:18px auto;
 }
 
 #konten1 p{
 	text-align:center;
-	font-size:15px;
-	padding:0px 12px;
-	margin:18px 16px;
+	font-size:16px;
+	padding:0px 8px;
+	margin:18px 8px;
 }
-
-#konten2{
-	margin:20px auto;
-}
-
 
 #konten2 h2{
 	text-align:center;
-	font-size:22px;
+	font-size:24px;
 }
 
 #konten2 section{
 	display:flex;
 	flex-direction:column;
 	justify-content: center;
-	
 	padding:0px 100px;
 	gap:10px;
-	padding:15px;
+	padding:7px;
 	margin:20px 25px;
 }
 
 #konten2 section h4{
-	padding:5px 20px;
-	text-align:center;
+	padding:5px 8px;
 	flex-grow:3;
 	margin:0px auto;
 	width:100%;
-	font-size:18px;
+	font-size:32px;
 	box-sizing:border-box;
-	align-self: end;
+	text-align:center;
 	text-transform:capitalize;
 }
 
 #konten2 section p{
-	font-size:10px;
-	padding:5px 20px;
-	flex-grow:8;
+	font-size:18px;
+	padding:5px 6px;
 	margin:0px auto;
 	width:100%;
 	box-sizing:border-box;
-	align-self: start;
+	text-align:center;
 }
 
 #konten2 img{
-	width:140px;
-	height:140px;
+	width:200px;
+	height:200px;
 	object-fit: cover;
 	flex-grow:1;
 	display:block;
 	border-radius:15px;
 	grid-row: 1 / span 2;
-	align-self:center;
 }
 
 #konten2 section img{
@@ -130,27 +121,27 @@
 }
 
 #konten4 {
-	margin:auto 26px;
+	margin:auto 8px;
 }
 
 #konten4 h3{
-	font-size:22px;
+	font-size:32px;
 }
 
 #konten4 p{
-	font-size:14px;
+	font-size:16px;
 }
 
 #konten6 h2, #konten5 h2{
-	font-size:16px;
+	font-size:18px;
 }
 #konten5 p, #konten5 a, #konten6 a, #konten6 p, #konten2a p, #konten2a a{
-	font-size:12px;
+	font-size:16px;
 }
 
 #konten5 a, #konten6 a, #konten2a a{
-	margin:12px auto;
-	padding:12px;
+	margin:auto;
+	padding:8px;
 	border-radius:20px;
 	text-decoration:none;
 	color:black;
@@ -159,10 +150,15 @@
 }
 
 #konten5, #konten6, #konten2a{
-	display:flex;
-	flex-direction:column;
-	margin:15px 26px;
+	display:grid;
+	gap:12px;
+	grid-template-columns:auto auto;
+	margin:28px 10px;
 	padding:8px;
+}
+
+#konten5 h2, #konten5 p, #konten6 h2, #konten6 p, #konten2a p{
+	grid-column: 1 / span 2;
 }
 
 #lastkonten h3{
@@ -173,5 +169,3 @@
 	padding:12px 33px;
 	font-size:12px;
 }
-
-
