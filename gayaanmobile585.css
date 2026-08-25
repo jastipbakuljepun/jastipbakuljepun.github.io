@@ -1,10 +1,10 @@
 #konten0 h1{
 	margin:12px auto;
-	font-size:32px;
+	font-size:44px;
 }
 
 #konten0 p{
-	font-size:12px;
+	font-size:16px;
 	padding:0px 30px;
 	width:80%;
 }
@@ -37,8 +37,8 @@
 }
 
 #konten2 section{
-	display:grid;
-	grid-template-columns: auto auto;
+	display:flex;
+	flex-direction:column;
 	justify-content: center;
 	padding:0px 100px;
 	gap:10px;
@@ -51,25 +51,24 @@
 	flex-grow:3;
 	margin:0px auto;
 	width:100%;
-	font-size:15px;
+	font-size:28px;
 	box-sizing:border-box;
-	align-self: end;
+	text-align:center;
 	text-transform:capitalize;
 }
 
 #konten2 section p{
-	font-size:12px;
+	font-size:16px;
 	padding:5px 20px;
-	flex-grow:8;
 	margin:0px auto;
 	width:100%;
 	box-sizing:border-box;
-	align-self: start;
+	text-align:center;
 }
 
 #konten2 img{
-	width:140px;
-	height:140px;
+	width:200px;
+	height:200px;
 	object-fit: cover;
 	flex-grow:1;
 	display:block;
@@ -126,11 +125,11 @@
 }
 
 #konten4 h3{
-	font-size:26px;
+	font-size:28px;
 }
 
 #konten4 p{
-	font-size:14px;
+	font-size:16px;
 }
 
 #konten6 h2, #konten5 h2{
@@ -163,10 +162,10 @@
 }
 
 #lastkonten h3{
-	font-size:22px;
+	font-size:18px;
 }
 
 #lastkonten p{
 	padding:12px 33px;
-	font-size:14px;
+	font-size:12px;
 }
